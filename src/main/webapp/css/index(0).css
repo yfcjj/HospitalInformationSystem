@@ -1,0 +1,105 @@
+/*body {*/
+/*    max-width: 740px;*/
+/*    min-width: 320px;*/
+/*    margin: 0 auto;*/
+/*    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;*/
+/*    color: #000000;*/
+/*    overflow-x: hidden;*/
+/*    -webkit-tap-highlight-color: transparent;*/
+/*    !*height: 2000px;*!*/
+/*}*/
+#container{
+    padding: 15px;
+    background: #ffffff;
+}
+
+上半部分样式
+
+.top{
+    /*padding: 10px 50px 30px;*/
+    font-size: 15px;
+}
+.top-top{
+    display: flex;
+    justify-content: space-between;
+}
+.top-bottom{
+    margin: 20px 0;
+}
+.item{
+    text-align: center;
+}
+.one{
+    color: #ff6a57;
+}
+.two{
+    color: #e86d48;
+}
+.three{
+    color: #ec9217;
+}
+.four{
+    color: #545499;
+}
+.five{
+    color: #e83132;
+}
+.six{
+    color: #476da0;
+}
+.seven{
+    color: #10aeb5;
+}
+.eight{
+    color: #4d5054;
+}
+
+/*下半部分样式*/
+.bottom{
+    background: rgb(248,249,250);
+    height: 650px;
+}
+
+.tab_header{
+    padding: 20px 10px;
+    line-height: 35px;
+}
+.tab_header ul{
+    height: 35px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0 10px;
+    border: 2px solid rgb(227,230,235);
+}
+.tab_header ul li{
+    flex: 1;
+    background-color: rgb(227,230,235);
+    font-size: 16px;
+    /*text-align: center;*/
+}
+.tab_header ul li.selected{
+    background: #fff;
+    border-bottom: none;
+    /*左右线条*/
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0;
+}
+.tab_header ul li:nth-child(1){
+    border-left: none;
+}
+.tab_content{
+    background: rgb(248,249,250);
+}
+.tab_content .dom{
+    width: 100%;
+    font-size: 15px;
+    display:none;
+    overflow: hidden;
+}
+.center-text{
+    text-align: center;
+    color: #999;
+    font-size: 16px;
+}
